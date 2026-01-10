@@ -1,0 +1,7 @@
+deploy: sui client publish --gas-budget 100000000
+
+sui client call \
+  --package 0x74c2e634cd435957c73558eba4b5083ecbaed0cbcb80dd8ca148faa860b7389a \
+  --module counter \
+  --function create \
+  --gas-budget 10000000
