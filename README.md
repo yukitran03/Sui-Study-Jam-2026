@@ -1,40 +1,31 @@
 # Sui Move - Study Jam 2026
 
-> 🏆 **Road to First Movers Sprint 2026** – Study Jam chương trình 4 tuần giúp các developer xây dựng nền tảng Sui & Move thông qua thực hành.
+> 🏆 **Road to First Movers Sprint 2026** – A 4-week Study Jam program helping developers build a strong foundation in Sui & Move through hands-on practice.
 
 ---
 
-## 📚 Nội dung các buổi học
+## 📚 Session Contents
 
-### Buổi 1: Giới thiệu Sui Move
+### Session 1: Introduction to Sui Move
 - **Video demo**: [https://www.youtube.com/watch?v=l-pzZv53ywo](https://www.youtube.com/watch?v=l-pzZv53ywo)
-- **Nội dung**: Hello World, cấu trúc project cơ bản
-- **Thư mục**: `buoi1/`
+- **Content**: Hello World, basic project structure
+- **Directory**: `buoi1/`
 
-### Buổi 2: [Đang cập nhật]
-- **Nội dung**: 
-- **Thư mục**: `buoi2/`
-
-### Buổi 3: [Đang cập nhật]
-- **Nội dung**: 
-- **Thư mục**: `buoi3/`
-
-### Buổi 4: [Đang cập nhật]
-- **Nội dung**: 
-- **Thư mục**: `buoi4/`
+### Session 2: Object-Centric & Ownership
+- Examples in Counter folder
 
 ---
 
-## 🚀 Cài đặt
+## 🚀 Installation
 
 ```bash
-# Cài đặt Sui CLI
+# Install Sui CLI
 curl -fsSL https://sui.io/install.sh | sh
 
 # Verify installation
 sui --version
 ```
-**Ví dụ cấu trúc:**
+**Example structure:**
 ```
 buoi1/my_project/
 ├── sources/
@@ -42,27 +33,27 @@ buoi1/my_project/
 ├── tests/
 │   └── main_test.move
 ├── Move.toml
-└── README.md (giải thích project)
+└── README.md (project explanation)
 ```
 
-**Lưu ý:** Demo phải chạy trên **Devnet hoặc Testnet**, không phải local environment
+**Note:** Demos must run on **Devnet or Testnet**, not local environment
 
 ### 3️⃣ **On-chain Proof**
-- **Valid transaction hash** trên:
-  - 🔗 [Sui Devnet Explorer](https://suiscan.xyz/devnet) hoặc
+- **Valid transaction hash** on:
+  - 🔗 [Sui Devnet Explorer](https://suiscan.xyz/devnet) or
   - 🔗 [Sui Testnet Explorer](https://suiscan.xyz/testnet)
-- Transaction hash phải **khớp với code** nộp
-- Nếu deploy contract: cần tx hash của `sui client publish`
-- Nếu call function: cần tx hash của `sui client call`
+- Transaction hash must **match the submitted code**
+- For contract deployment: need tx hash from `sui client publish`
+- For function call: need tx hash from `sui client call`
 
-**Cách lấy transaction hash:**
+**How to get transaction hash:**
 ```bash
-# Khi chạy command, output sẽ có:
+# When running commands, the output will show:
 # Transaction Digest: 0x1234567890abcdef...
-# Copy hash này vào submission
+# Copy this hash into submission
 ```
 
-## 📖 Tài liệu Tham Khảo
+## 📖 Reference Documentation
 
 - 📘 [Sui Official Docs](https://docs.sui.io/)
 - 📕 [Move Book](https://move-book.com/)
