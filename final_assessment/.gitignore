@@ -1,0 +1,10 @@
+build/*
+traces/*
+.trace
+.coverage*
+Pub.*.toml
+package-lock.json
+node_modules/
+dist/
+.vscode/
+.env

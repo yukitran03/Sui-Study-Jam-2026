@@ -1,0 +1,25 @@
+Soulbound NFT:
+sui client call \
+  --package 0x180111b5cf8f1bb92a30f2a6e9faca7b5664dd652561ca85c0b2f69020402a41 \
+  --module pass \
+  --function mint_pass \
+  --args 0xb818a66e506683d7ee9db6c248e83436cae1eaeae4a65f8e54379ec1ca83f173 \
+  --gas-budget 10000000
+
+  Shared object id: 0xb818a66e506683d7ee9db6c248e83436cae1eaeae4a65f8e54379ec1ca83f173
+  => registry id
+
+ sui client ptb \
+  --move-call 0x180111b5cf8f1bb92a30f2a6e9faca7b5664dd652561ca85c0b2f69020402a41::pass::mint_pass @0xb818a66e506683d7ee9db6c248e83436cae1eaeae4a65f8e54379ec1ca83f173 \
+  --gas-budget 10000000 \
+  --json
+
+1st success: ts hash: 83Bjgtc1TYMskEFbbcru73ivJwTmba9T2RxfStxXPaU
+
+
+
+======
+Voting
+
+
+
