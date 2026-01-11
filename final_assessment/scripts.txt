@@ -1,9 +1,9 @@
 Soulbound NFT:
 sui client call \
-  --package 0x180111b5cf8f1bb92a30f2a6e9faca7b5664dd652561ca85c0b2f69020402a41 \
+  --package 0x15fa4c6de9dc36e1b405c8ae6a2b9785f4fbdafa1ae8f882131c2cd2fdb791bf \
   --module pass \
   --function mint_pass \
-  --args 0xb818a66e506683d7ee9db6c248e83436cae1eaeae4a65f8e54379ec1ca83f173 \
+  --args 0xaa1b9225864bd9b349a06a63d08d8efc6675501faf24e51f321322e7b935189f \
   --gas-budget 10000000
 
   Shared object id: 0xb818a66e506683d7ee9db6c248e83436cae1eaeae4a65f8e54379ec1ca83f173

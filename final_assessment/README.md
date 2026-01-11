@@ -1,6 +1,27 @@
 # Final Assessment - Sui Study Jam 2026
 
-Đây là dự án đánh giá cuối khóa cho Sui Study Jam 2026, bao gồm 2 smart contracts và 1 Web3 UI.
+Đây là dự án đánh giá cuối khóa cho First Movers - Sui Study Jam 2026, bao gồm 2 smart contracts và 1 Web3 UI.
+
+By: Trần Vũ Khánh Hưng
+Email: tvkhhung03@gmail.com
+Telegram: johntran33
+
+Video demo link: https://www.youtube.com/watch?v=eUZ89QpLkLA
+
+Các tx thành công và fail:
+1. OPTION 2: Soulbound NFT
+tx Hash thành công: 63DX3SLJBdNKKodUUj5NCWcjUnqVze476jCHsVFqu4Fm
+Suiscan Link: https://suiscan.xyz/testnet/tx/63DX3SLJBdNKKodUUj5NCWcjUnqVze476jCHsVFqu4Fm
+
+tx Abort: GoaACZjdnjUahMAwXEAZe2qd36RErcziA3k4zme6cuMB
+Suiscan Link: https://suiscan.xyz/testnet/tx/GoaACZjdnjUahMAwXEAZe2qd36RErcziA3k4zme6cuMB
+
+2. OPTION 3: Voting basic
+tx Hash thành công: 3YDCjiPUavCo85Vvk6DZS4hHw8UToG4ykK7wfc9L3Xti
+Suiscan Link: https://suiscan.xyz/testnet/tx/3YDCjiPUavCo85Vvk6DZS4hHw8UToG4ykK7wfc9L3Xti
+
+tx Abort: G7otxAb9rJJZAeR9TjhLAJangZYEHpsyRqweVPLNx9WJ
+Suiscan Link: https://suiscan.xyz/testnet/tx/G7otxAb9rJJZAeR9TjhLAJangZYEHpsyRqweVPLNx9WJ
 
 ---
 
@@ -9,8 +30,8 @@
 ```
 final_assessment/
 ├── sources/
-│   ├── pass.move         # Soulbound Pass NFT (mint 1 lần/địa chỉ)
-│   └── voting.move       # On-chain voting system
+│   ├── pass.move         # Soulbound Pass NFT (mint 1 lần/địa chỉ) - OPTION 2
+│   └── voting.move       # On-chain voting system - OPTION 3
 ├── tests/
 │   └── *.move           # Unit tests
 ├── voting-ui/           # React + Sui dApp UI
@@ -184,13 +205,13 @@ const VOTING_ID = "0xYOUR_VOTING_OBJECT_ID"; // Object ID của Voting
 
 ## 📋 Checklist đánh giá
 
-- [ ] ✅ Build thành công không có lỗi
-- [ ] ✅ Deploy lên Testnet
-- [ ] ✅ Mint Pass NFT được (1 lần/địa chỉ)
-- [ ] ✅ Vote được và kết quả cập nhật on-chain
-- [ ] ✅ UI chạy và kết nối ví được
-- [ ] ✅ UI hiển thị kết quả chính xác
-- [ ] ✅ Transaction hash hợp lệ trên Explorer
+  ✅ Build thành công không có lỗi
+  ✅ Deploy lên Testnet
+  ✅ Mint Pass NFT được (1 lần/địa chỉ)
+  ✅ Vote được và kết quả cập nhật on-chain
+  ✅ UI chạy và kết nối ví được
+  ✅ UI hiển thị kết quả chính xác
+  ✅ Transaction hash hợp lệ trên Explorer
 
 ---
 
@@ -204,7 +225,5 @@ const VOTING_ID = "0xYOUR_VOTING_OBJECT_ID"; // Object ID của Voting
 ## 👨‍💻 Author
 
 **Sui Study Jam 2026 - Final Assessment**  
-John tran 03
+Johntran33
 ---
-
-**Good luck! 🚀**

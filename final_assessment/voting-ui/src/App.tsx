@@ -9,8 +9,8 @@ import {
 } from "@mysten/dapp-kit";
 import { Transaction } from "@mysten/sui/transactions";
 
-const PACKAGE_ID = "0x4ab6bfb3b620466473d7fa1f460de60d830f04ac0606f6d51eb2fef24cf171c3";
-const VOTING_ID = "0x91c4bdd900619504a8628f0c01d846eb2e853284c56883871e6df313b6a72076";
+const PACKAGE_ID = "0x15fa4c6de9dc36e1b405c8ae6a2b9785f4fbdafa1ae8f882131c2cd2fdb791bf";
+const VOTING_ID = "0x0798cc3c7a62fe44c5f2c477d811e5a8450ca3d3d17d53e02e4921965130f15e";
 
 export default function App() {
   const account = useCurrentAccount();
