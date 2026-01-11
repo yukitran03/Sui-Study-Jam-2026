@@ -9,8 +9,8 @@ import {
 } from "@mysten/dapp-kit";
 import { Transaction } from "@mysten/sui/transactions";
 
-const PACKAGE_ID = "0xd1e83d2a5574e575306a467cb33ed97273a174aed93c13e3b08f6f780871987d";
-const VOTING_ID = "0x16e405d3e924eebc555891a4b2b374485b638afdf104f1d5a98206dd8665dd76";
+const PACKAGE_ID = "0x4ab6bfb3b620466473d7fa1f460de60d830f04ac0606f6d51eb2fef24cf171c3";
+const VOTING_ID = "0x91c4bdd900619504a8628f0c01d846eb2e853284c56883871e6df313b6a72076";
 
 export default function App() {
   const account = useCurrentAccount();
@@ -95,6 +95,12 @@ export default function App() {
             <strong> Wallet address:</strong>
             <br />
             <code>{account.address}</code>
+          </p>
+
+          <p style={{ marginTop: 12 }}>
+            <strong> Package ID:</strong>
+            <br />
+            <code>{PACKAGE_ID}</code>
           </p>
 
           <hr style={{ margin: "24px 0" }} />
