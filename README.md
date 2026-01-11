@@ -14,6 +14,8 @@
 ### Session 2: Object-Centric & Ownership
 - Examples in Counter folder
 
+### Final Session: Final assessment : cd final_assessment/README.md
+
 ---
 
 ## 🚀 Installation
