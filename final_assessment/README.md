@@ -9,18 +9,18 @@ Telegram: johntran33
 Video demo link: https://www.youtube.com/watch?v=eUZ89QpLkLA
 
 Các tx thành công và fail:
-1. OPTION 2: Soulbound NFT
-tx Hash thành công: 63DX3SLJBdNKKodUUj5NCWcjUnqVze476jCHsVFqu4Fm
-Suiscan Link: https://suiscan.xyz/testnet/tx/63DX3SLJBdNKKodUUj5NCWcjUnqVze476jCHsVFqu4Fm
+1. OPTION 2: Soulbound NFT \
+tx Hash thành công: 63DX3SLJBdNKKodUUj5NCWcjUnqVze476jCHsVFqu4Fm \
+Suiscan Link: https://suiscan.xyz/testnet/tx/63DX3SLJBdNKKodUUj5NCWcjUnqVze476jCHsVFqu4Fm \
 
-tx Abort: GoaACZjdnjUahMAwXEAZe2qd36RErcziA3k4zme6cuMB
+tx Abort: GoaACZjdnjUahMAwXEAZe2qd36RErcziA3k4zme6cuMB \
 Suiscan Link: https://suiscan.xyz/testnet/tx/GoaACZjdnjUahMAwXEAZe2qd36RErcziA3k4zme6cuMB
 
-2. OPTION 3: Voting basic
-tx Hash thành công: 3YDCjiPUavCo85Vvk6DZS4hHw8UToG4ykK7wfc9L3Xti
-Suiscan Link: https://suiscan.xyz/testnet/tx/3YDCjiPUavCo85Vvk6DZS4hHw8UToG4ykK7wfc9L3Xti
+2. OPTION 3: Voting basic \
+tx Hash thành công: 3YDCjiPUavCo85Vvk6DZS4hHw8UToG4ykK7wfc9L3Xti \
+Suiscan Link: https://suiscan.xyz/testnet/tx/3YDCjiPUavCo85Vvk6DZS4hHw8UToG4ykK7wfc9L3Xti \
 
-tx Abort: G7otxAb9rJJZAeR9TjhLAJangZYEHpsyRqweVPLNx9WJ
+tx Abort: G7otxAb9rJJZAeR9TjhLAJangZYEHpsyRqweVPLNx9WJ \
 Suiscan Link: https://suiscan.xyz/testnet/tx/G7otxAb9rJJZAeR9TjhLAJangZYEHpsyRqweVPLNx9WJ
 
 ---
