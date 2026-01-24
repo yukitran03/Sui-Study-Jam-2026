@@ -2,8 +2,8 @@
 
 Đây là dự án đánh giá cuối khóa cho First Movers - Sui Study Jam 2026, bao gồm 2 smart contracts và 1 Web3 UI.
 
-By: Trần Vũ Khánh Hưng
-Email: tvkhhung03@gmail.com
+By: Trần Vũ Khánh Hưng \
+Email: tvkhhung03@gmail.com \
 Telegram: johntran33
 
 Video demo link: https://www.youtube.com/watch?v=eUZ89QpLkLA
